@@ -12,7 +12,7 @@ export const products = [
     href: "https://testbuddy-frontend.vercel.app/",
     title: "Testbuddy",
     description:
-      "About TestBuddy is an innovative online platform designed to facilitate the creation, management, and solving of coding questions.",
+      "TestBuddy is an innovative online platform designed to facilitate the creation, management, and solving of coding questions.",
     thumbnail: sidefolioAceternity,
     images: [sidefolioAceternity, sidefolioAceternity2],
     stack: ["MongoDB", "React", "Nodejs", "Express"],
