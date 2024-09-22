@@ -7,14 +7,19 @@ import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
 import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
 import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
 
+import testbuddy from "public/images/testbuddy.jpg";
+import crackyour from "public/images/crackyour.jpg";
+import gamef from "public/images/gamef.jpg";
+import gans from "public/images/gans.png";
+import grpgpt from "public/images/groupgpt.jpg";
 export const products = [
   {
     href: "https://testbuddy-frontend.vercel.app/",
     title: "Testbuddy",
     description:
       "TestBuddy is an innovative online platform designed to facilitate the creation, management, and solving of coding questions.",
-    thumbnail: sidefolioAceternity,
-    images: [sidefolioAceternity, sidefolioAceternity2],
+    thumbnail: testbuddy,
+    images: [],
     stack: ["MongoDB", "React", "Nodejs", "Express"],
     slug: "aceternity",
     content: (
@@ -31,8 +36,8 @@ export const products = [
     title: "Game Finder",
     description:
       "Developed an online platform that connects sports enthusiasts, allowing users to easily find and participate in local games for sports like football and basketball.",
-    thumbnail: sidefolioAlgochurn,
-    images: [sidefolioAlgochurn, sidefolioAlgochurn2],
+    thumbnail: gamef,
+    images: [],
     stack: ["Nextjs", "MongoDB"],
     slug: "algochurn",
     content: (
@@ -46,8 +51,8 @@ export const products = [
     title: "Crack your placement",
     description:
       "A platform that helps students prepare for technical interviews by providing a collection of coding questions and solutions.",
-    thumbnail: sidefolioMoonbeam,
-    images: [sidefolioMoonbeam, sidefolioMoonbeam2],
+    thumbnail: crackyour,
+    images: [],
     stack: ["Nextjs", "MongoDB"],
     slug: "moonbeam",
     content: (
@@ -64,8 +69,8 @@ export const products = [
     title: "GroupGPT (Under Development)",
     description:
       "A platform which helps developers to work together with the help of AI generated code snippets.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
+    thumbnail: grpgpt,
+    images: [],
     stack: ["Nextjs", "MongoDB", "GeminiAPI"],
     slug: "tailwindmasterkit",
     content: (
