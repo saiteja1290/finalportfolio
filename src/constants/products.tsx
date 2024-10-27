@@ -12,6 +12,8 @@ import crackyour from "public/images/crackyour.jpg";
 import gamef from "public/images/gamef.jpg";
 import gans from "public/images/gans.png";
 import grpgpt from "public/images/groupgpt.jpg";
+import bettererp from "public/images/bettererp.jpg";
+import bettererpanalytics from "public/images/bettererpanalytics.jpg";
 export const products = [
   {
     href: "https://testbuddy-frontend.vercel.app/",
@@ -26,6 +28,24 @@ export const products = [
       <div>
         <p>
           It offers a seamless and interactive experience for both teachers and students, aiming to enhance the learning and teaching of coding.{" "}
+        </p>
+
+      </div>
+    ),
+  },
+  {
+    href: "https://bettererp.vercel.app",
+    title: "BetterERP",
+    description:
+      "BetterERP is a platform that helps students manage their attendance and gain valuable insights regarding their attendance.",
+    thumbnail: bettererp,
+    images: [],
+    stack: ["Nextjs", "MongoDB"],
+    slug: "aceternity",
+    content: (
+      <div>
+        <p>
+          It offers a seamless and interactive experience for stundets to check their attendance replaceing the cbit erp portal with a better one. It has gained approximately 900 views in the first week of its launch.{" "}
         </p>
 
       </div>
